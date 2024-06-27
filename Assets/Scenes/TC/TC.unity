@@ -156,9 +156,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebf137dac275265469193be9cddf92dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxDistance: 100
-  sphereRadius: 1
-  layerMask:
+  DetectionDistanceMax: 100
+  DetectionSphereRadius: 1
+  TargetingLayer:
     serializedVersion: 2
     m_Bits: 128
 --- !u!114 &98880140
@@ -227,7 +227,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd2ed1730b5c2a14aa5999adb9b31b2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  Speed: 5
 --- !u!114 &98880144
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -645,7 +645,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 258532790}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.062324416, y: 0.000000008751377, z: -5.464869e-10, w: 0.998056}
+  m_LocalRotation: {x: 0.062324416, y: -0.000000008751377, z: 5.464869e-10, w: 0.998056}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2723,7 +2723,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1117499256}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.08042035, y: 1e-45, z: -0, w: 0.996761}
+  m_LocalRotation: {x: 0.08042035, y: -1e-45, z: -0, w: 0.996761}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2876,7 +2876,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1448527538}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0678604, y: 0.0000000042916795, z: -2.9190803e-10, w: 0.99769485}
+  m_LocalRotation: {x: 0.0678604, y: -0.0000000042921475, z: 2.9193983e-10, w: 0.99769485}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
